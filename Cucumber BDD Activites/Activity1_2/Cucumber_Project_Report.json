@@ -1,0 +1,86 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-30T09:08:37.345Z",
+        "line": 3,
+        "name": "Testing Login",
+        "description": "",
+        "id": "login-test;testing-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10845190300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Login page",
+            "match": {
+              "location": "StepDefinitions.LoginTestSteps.UserisonLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 447526500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters username and password",
+            "match": {
+              "location": "StepDefinitions.LoginTestSteps.EnterUsernameandPassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 83001200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Read the page title and confirmation message",
+            "match": {
+              "location": "StepDefinitions.LoginTestSteps.PageTitle()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1264099100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Close the Browser",
+            "match": {
+              "location": "StepDefinitions.LoginTestSteps.Close()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@activity1_2"
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/Activity1_2.feature",
+    "tags": [
+      {
+        "name": "@activity1_2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
