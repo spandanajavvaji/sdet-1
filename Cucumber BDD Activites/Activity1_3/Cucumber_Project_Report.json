@@ -1,0 +1,310 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-30T09:17:09.046Z",
+        "line": 5,
+        "name": "Test for Simple Alert",
+        "description": "",
+        "id": "testing-with-tags;test-for-simple-alert",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11083089600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on the page",
+            "match": {
+              "location": "StepDefinitions.AlertSteps.openPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 121004600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks the Simple Alert button",
+            "match": {
+              "location": "StepDefinitions.AlertSteps.openSimpleAlert()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12010400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Alert opens",
+            "match": {
+              "location": "StepDefinitions.AlertSteps.switchFocus()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26005500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Read the text from it and print it",
+            "match": {
+              "location": "StepDefinitions.AlertSteps.readAlert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37004000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Close the alert",
+            "match": {
+              "location": "StepDefinitions.AlertSteps.closeAlert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1325094600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Close Browser",
+            "match": {
+              "location": "StepDefinitions.AlertSteps.closeBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@activity1_3"
+          },
+          {
+            "name": "@SimpleAlert"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-30T09:17:21.820Z",
+        "line": 14,
+        "name": "Test for Confirm Alert",
+        "description": "",
+        "id": "testing-with-tags;test-for-confirm-alert",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8636945900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User is on the page",
+            "match": {
+              "location": "StepDefinitions.AlertSteps.openPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 111489000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks the Confirm Alert button",
+            "match": {
+              "location": "StepDefinitions.AlertSteps.openConfirmAlert()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12980400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Alert opens",
+            "match": {
+              "location": "StepDefinitions.AlertSteps.switchFocus()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8023400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Read the text from it and print it",
+            "match": {
+              "location": "StepDefinitions.AlertSteps.readAlert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27976500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Close the alert with Cancel",
+            "match": {
+              "location": "StepDefinitions.AlertSteps.closeAlertWithCAncel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1457122700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Close Browser",
+            "match": {
+              "location": "StepDefinitions.AlertSteps.closeBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@activity1_3"
+          },
+          {
+            "name": "@ConfirmAlert"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-30T09:17:32.098Z",
+        "line": 23,
+        "name": "Test for Prompt Alert",
+        "description": "",
+        "id": "testing-with-tags;test-for-prompt-alert",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8975836800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is on the page",
+            "match": {
+              "location": "StepDefinitions.AlertSteps.openPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 127246900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User clicks the Prompt Alert button",
+            "match": {
+              "location": "StepDefinitions.AlertSteps.openPromptAlert()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10995500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Alert opens",
+            "match": {
+              "location": "StepDefinitions.AlertSteps.switchFocus()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13006800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Read the text from it and print it",
+            "match": {
+              "location": "StepDefinitions.AlertSteps.readAlert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29308800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Write a custom message in it",
+            "match": {
+              "location": "StepDefinitions.AlertSteps.writeToPrompt()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51002600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Close the alert",
+            "match": {
+              "location": "StepDefinitions.AlertSteps.closeAlert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1187844700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Close Browser",
+            "match": {
+              "location": "StepDefinitions.AlertSteps.closeBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@activity1_3"
+          },
+          {
+            "name": "@PromptAlert"
+          }
+        ]
+      }
+    ],
+    "name": "Testing with Tags",
+    "description": "",
+    "id": "testing-with-tags",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/Activity1_3.feature",
+    "tags": [
+      {
+        "name": "@activity1_3",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
