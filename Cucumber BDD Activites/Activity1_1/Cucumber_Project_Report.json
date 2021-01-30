@@ -1,0 +1,86 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-30T09:00:41.532Z",
+        "line": 4,
+        "name": "Opening a webpage using Selenium",
+        "description": "",
+        "id": "basic-syntax;opening-a-webpage-using-selenium",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12620848800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Google Home Page",
+            "match": {
+              "location": "StepDefinitions.GoogleSearchSteps.userIsOnGooglePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 301430700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User types in Cheese and hits ENTER",
+            "match": {
+              "location": "StepDefinitions.GoogleSearchSteps.userTypesInCheeseAndHitsENTER()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1250280300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Show how many search results were shown",
+            "match": {
+              "location": "StepDefinitions.GoogleSearchSteps.showHowManySearchResultsWereShown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1812691900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Close the browser",
+            "match": {
+              "location": "StepDefinitions.GoogleSearchSteps.closeTheBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@activity1_1"
+          }
+        ]
+      }
+    ],
+    "name": "Basic Syntax",
+    "description": "",
+    "id": "basic-syntax",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/Activity1_1.feature",
+    "tags": [
+      {
+        "name": "@activity1_1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
