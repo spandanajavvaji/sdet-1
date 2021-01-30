@@ -1,0 +1,96 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-30T09:30:23.959Z",
+        "line": 4,
+        "name": "Testing with Data from Scenario",
+        "description": "",
+        "id": "data-driven-test-without-example;testing-with-data-from-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10337925300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Login page",
+            "match": {
+              "location": "StepDefinitions.LoginTestSteps1.loginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 420374300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"admin\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 13
+                },
+                {
+                  "val": "password",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinitions.LoginTestSteps1.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 141027200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Read the page title and confirmation message",
+            "match": {
+              "location": "StepDefinitions.LoginTestSteps1.readTitleAndHeading()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1225289300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Close the Browser",
+            "match": {
+              "location": "StepDefinitions.LoginTestSteps1.closeBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@activity2_4"
+          }
+        ]
+      }
+    ],
+    "name": "Data driven test without Example",
+    "description": "",
+    "id": "data-driven-test-without-example",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/Activity2_4.feature",
+    "tags": [
+      {
+        "name": "@activity2_4",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
